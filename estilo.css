@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  color: aquamarine;
+}
+
+body{
+  background-color: red;
+}
+header 
+span{
+  color: red;
+}
+p{
+  color: black;
+}
+hr{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin: 40px 60px 80px 10px;
+  margin: 20px 30px 40px;
+}
+.caja{
+  width: 200px;
+  height: 200px;
+  background:blueviolet;
+  margin: 80px;
+  border: solid #000 10px;
+  color:#fff;
+  padding: 20px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
