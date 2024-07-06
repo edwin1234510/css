@@ -18,19 +18,22 @@ body{
   padding: 20px;
   box-shadow: 0 0 5px #000000;
   border-radius: 10px;
+  display: block;
 }
 .card_title{
   text-align: center;
   margin-bottom: 15px;
   padding: 7px;
 }
-.card_title::before,.card_title::after{
+.card_title::after,.card_title::before{
   content: "";
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 55px;
   height: 3px;
-  background-color: #000000;
+  background-color: black;
+  margin: 5px;
 }
+
 ul{
   counter-reset: adso ;
 }
